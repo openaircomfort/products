@@ -7549,16 +7549,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/icons@npm:1.11.0":
-  version: 1.11.0
-  resolution: "@strapi/icons@npm:1.11.0"
-  peerDependencies:
-    react: ^17.0.0 || ^18.0.0
-    react-dom: ^17.0.0 || ^18.0.0
-  checksum: 112949935895d8dca06d14731c0734d93d1b24a7aa56d187a54f393d6ee211b46e87d348be9ddb497918dbdfa7766d92097be84b1c76284f39021b99aa4b1cde
-  languageName: node
-  linkType: hard
-
 "@strapi/icons@npm:1.12.0":
   version: 1.12.0
   resolution: "@strapi/icons@npm:1.12.0"
@@ -17350,7 +17340,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "getstarted@workspace:examples/getstarted"
   dependencies:
-    "@strapi/icons": 1.11.0
+    "@strapi/icons": 1.12.0
     "@strapi/plugin-color-picker": 4.14.0
     "@strapi/plugin-documentation": 4.14.0
     "@strapi/plugin-graphql": 4.14.0
