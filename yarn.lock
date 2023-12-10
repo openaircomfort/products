@@ -7354,7 +7354,7 @@ __metadata:
     "@types/jest": 29.5.2
     "@types/koa": 2.13.4
     "@types/lodash": ^4.14.191
-    "@types/node": 18.11.9
+    "@types/node": 18.19.3
     "@types/semver": 7.5.0
     "@types/stream-chain": 2.0.1
     "@types/stream-json": 1.7.3
@@ -8049,7 +8049,7 @@ __metadata:
     "@types/koa__router": 12.0.0
     "@types/lodash": ^4.14.191
     "@types/mime-types": 2.1.1
-    "@types/node": 18.11.9
+    "@types/node": 18.19.3
     "@types/node-schedule": 2.1.0
     "@types/statuses": 2.0.1
     "@vitejs/plugin-react": 4.1.0
@@ -8183,7 +8183,7 @@ __metadata:
   dependencies:
     "@sindresorhus/slugify": 1.1.0
     "@types/koa": 2.13.4
-    "@types/node": 18.11.9
+    "@types/node": 18.19.3
     date-fns: 2.30.0
     eslint-config-custom: 4.14.0
     http-errors: 1.8.1
@@ -9283,10 +9283,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.9":
-  version: 18.11.9
-  resolution: "@types/node@npm:18.11.9"
-  checksum: cc0aae109e9b7adefc32eecb838d6fad931663bb06484b5e9cbbbf74865c721b03d16fd8d74ad90e31dbe093d956a7c2c306ba5429ba0c00f3f7505103d7a496
+"@types/node@npm:18.19.3":
+  version: 18.19.3
+  resolution: "@types/node@npm:18.19.3"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 58c4fa45a78fcec75c78182a4b266395905957633654eb0311c5f9c30ac15c179ea2287ab1af034e46c2db7bb0589ef0000ee64c1de8f568a0aad29eaadb100c
   languageName: node
   linkType: hard
 
@@ -30268,6 +30270,13 @@ __metadata:
   version: 0.1.2
   resolution: "unc-path-regex@npm:0.1.2"
   checksum: a05fa2006bf4606051c10fc7968f08ce7b28fa646befafa282813aeb1ac1a56f65cb1b577ca7851af2726198d59475bb49b11776036257b843eaacee2860a4ec
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
